@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Solo Caffé</string>
+
+    <!--hint in name_field Edit Text [CHAR LIMIT = 20]-->
+    <string name="hint">Nome</string>
+
+    <!--header text fot the list of toppings [CHAR LIMIT = 20]-->
+    <string name="toppings">Guarnizioni</string>
+
+    <!--toppings [char limit = 40]-->
+    <string name="choose_cream">Panna montata (+1,00 € per tazza)</string>
+    <string name="choose_chocolate">Cioccolato (+2,00 € per tazza)</string>
+
+    <!--header text fot quantity selection [CHAR LIMIT = 20]-->
+    <string name="quantity">Quantità</string>
+
+    <!--quantity number [CHAR LIMIT = NONE]-->
+    <string name="quantity_select">2</string>
+
+    <!--calculated quantity number (int numberOfCoffees) [CHAR LIMIT = NONE]-->
+    <string name="number_of_coffees"><xliff:g example="2" id="numberOfCoffees">%d</xliff:g></string>
+
+    <!--toast message: too little coffees in quantity selection [CHAR LIMIT = NONE]-->
+    <string name="toast_001">Non puoi ordinare meno di <xliff:g example="1" id="smallQuantity">%d</xliff:g> caffé</string>
+
+    <!--toast message: too little coffees in quantity selection [CHAR LIMIT = NONE]-->
+    <string name="toast_100">Non puoi ordinare più di <xliff:g example="100" id="hugeQuantity">%d</xliff:g> caffé</string>
+
+    <!--price description [CHAR LIMIT = 40]-->
+    <string name="price_description">Prezzo: 5,00 € per tazza, più guarnizioni extra</string>
+
+    <!--order button label [CHAR LIMIT = 20]-->
+    <string name="submit_order">Ordina</string>
+
+    <!--
+        name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the user's name. [CHAR LIMIT = NONE]
+    -->
+    <string name="order_summary_name">Nome: <xliff:g example="Amy" id="userName">%s</xliff:g></string>
+
+    <!--
+      Quantity of coffee cups for the order summary. It will be shown in the format of "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_quantity">Quantità: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!--
+      Whipped cream topping for the order summary. It will be shown in the format of "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_whipped_cream">Vuoi panna montata? <xliff:g example="true" id="hasWhippedCream">%b</xliff:g></string>
+
+    <!--
+      Chocolate topping for the order summary. It will be shown in the format of "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_chocolate">Vuoi cioccolato? <xliff:g example="true" id="hasChocolate">%b</xliff:g></string>
+
+    <!--
+          Total price for the order summary. It will be shown in the format of "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_price">Totale: <xliff:g example="10" id="price">%s</xliff:g></string>
+
+    <!--thank you message for the order summary [CHAR LIMIT = NONE]-->
+    <string name="thank_you">Grazie!</string>
+
+    <!--Email subject [CHAR LIMIT = NONE]-->
+    <string name="email_subject"> <xliff:g example="JustJava" id="appName">%s</xliff:g> - Ordine di <xliff:g example="Amy" id="userName">%s</xliff:g></string>
+
+</resources>
